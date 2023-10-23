@@ -6,8 +6,8 @@ class Livro:
         self._pagina = pagina 
         self._autor = autor
 
-    def imprime_dados():
-        print(titulo, snopse, pagina, autor)
-imprime_dados()    
+    def imprime_dados(self):
+        print('%s %s %s %s' % (self._titulo, self._snopse, self._pagina, self._autor)) 
+        
 
     
